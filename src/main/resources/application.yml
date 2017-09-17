@@ -1,0 +1,21 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/bs?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: qihong
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null  #给用户返回json时不返回为null的属性
+    
+#微信公众号配置    
+#wechat: 
+#  mpAddId: wx9d54a97a57bca08b
+#  mpAppSecret: 53ad32e100f66ed5105080696a58e27a
+#  mchId: 
+#  mchKey: 
+#  keyPath: 
+#  notifyUrl: 
